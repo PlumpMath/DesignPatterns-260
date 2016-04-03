@@ -8,6 +8,7 @@ namespace Command
         [Test]
         public void CommandTest()
         {
+            //TODO this is really incomplete, add example
             ICommand simpleCommand = new SimpleCommand();
             Assert.IsFalse(simpleCommand.WasExecuted);
             simpleCommand.Execute();
