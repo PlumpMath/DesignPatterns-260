@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{B02D0695-D948-4B3F-8323-460160BF90B3}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{1154F759-5176-497D-9290-7DF7D4E92B38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{A7E1933F-D66D-4562-ADC9-1F5A75B89635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{CAFC4D1D-ED8A-4BA0-BFCB-8E73EE29339D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A7E1933F-D66D-4562-ADC9-1F5A75B89635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7E1933F-D66D-4562-ADC9-1F5A75B89635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7E1933F-D66D-4562-ADC9-1F5A75B89635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFC4D1D-ED8A-4BA0-BFCB-8E73EE29339D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFC4D1D-ED8A-4BA0-BFCB-8E73EE29339D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFC4D1D-ED8A-4BA0-BFCB-8E73EE29339D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFC4D1D-ED8A-4BA0-BFCB-8E73EE29339D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +61,6 @@ Global
 		{48EBF516-7AB0-42D3-9F37-3251F2C63B20} = {11B6EA6D-14F4-4979-9CA8-9AF822DB074D}
 		{1154F759-5176-497D-9290-7DF7D4E92B38} = {24A76ED5-4175-4601-B599-8E135E3431E6}
 		{A7E1933F-D66D-4562-ADC9-1F5A75B89635} = {24A76ED5-4175-4601-B599-8E135E3431E6}
+		{CAFC4D1D-ED8A-4BA0-BFCB-8E73EE29339D} = {11B6EA6D-14F4-4979-9CA8-9AF822DB074D}
 	EndGlobalSection
 EndGlobal
